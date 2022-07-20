@@ -1,10 +1,19 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=6623205&assignment_repo_type=AssignmentRepo)
-# SBEN424-Advanced-CV-Lab-05-Template
+# Image Characterization using Texture
+The texture is an important image feature used in many computer vision systems. In this 
+coursework, we will analyze and implement one of the most common statistical methods to extract 
+texture descriptors: co-occurrence matrices. They are fast and easy to implement and provide 
+good results that could be used in a posterior step to perform image segmentation and object 
+recognition/classification. 
 
-### Contribution:
-- Ahmed Ragab
-- Mohamed Ahmed
----
+Regarding the final objective, texture can be computed globally or locally. By globally, it is 
+understood that all pixels in the image are used to compute a final vector of features. In contrast, 
+locally means that texture is computed at each pixel by using just its neighborhood. Hence, each 
+pixel will have its own vector of features. In this coursework, we will develop both approaches. 
+Firstly, the goal is to be able to create output images corresponding to different texture descriptors. 
+Therefore, we will apply the co-occurrence matrices at the local level producing descriptors for 
+each pixel. We will then use these descriptors to enhance the Region Growing segmentation 
+algorithm. 
+
 ## Part I - Feature Vetor
 
 &nbsp;
